@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - VSCode - workspace
+grpc-nest-proto.code-workspace
+
+#igmore the gateway and microservices folders
+grpc-nest-api-gateway/
+grpc-nest-auth-svc/
+grpc-nest-order-svc/
+grpc-nest-product-svc/
